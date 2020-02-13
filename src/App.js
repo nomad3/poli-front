@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/logo.svg';
+// import logo from './assets/logo.svg';
 import './styles/App.css';
 
 const dataList = [
@@ -28,15 +28,15 @@ function App() {
           <div className="card form-group">
             <div className="card-body">
               <h3>Formulario</h3>
-              <div class="form-group text-left">
-                <label for="name">Email address</label>
+              <div className="form-group text-left">
+                <label htmlFor="name">Email address</label>
                 <input type="text" className="form-control mb-3" id="name" name="name" />
               </div>
-              <div class="form-group text-left">
-                <label for="city">Ciudad</label>
+              <div className="form-group text-left">
+                <label htmlFor="city">Ciudad</label>
                 <input type="text" className="form-control mb-3" id="city" name="city" />
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" className="btn btn-primary">Submit</button>
             </div>
           </div>
         </div>
